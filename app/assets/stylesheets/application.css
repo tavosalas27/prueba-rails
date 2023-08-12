@@ -1,0 +1,120 @@
+@import "font-awesome";
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.flex-row-dos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.flex-row-tres {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.tamano-uno {
+    width: 80%;
+}
+
+.space-icon {
+    width: 10%;
+}
+
+.space-input {
+    width: 90%;
+}
+
+.cuadro-punteado {
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: 2px dotted #333;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.cuadro-grisaseo {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.input-start {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    width: 100%;
+}
+
+
+/* Estilo base para el botón del dropdown */
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(175, 199, 240);
+    padding: 5px 15px 5px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Posición relativa para el contenedor del dropdown */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Estilo para el contenido del dropdown */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    border: #ddd;
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilo de los enlaces dentro del contenido del dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Cambia el color del enlace cuando pasas el ratón sobre él */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Mostrar el contenido del dropdown cuando pasas el ratón sobre el botón */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
